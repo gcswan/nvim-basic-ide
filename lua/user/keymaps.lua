@@ -43,7 +43,11 @@ keymap("v", "p", '"_dP', opts)
 
 -- Insert --
 -- Press jk fast to enter
-keymap("i", "jk", "<ESC>", opts)
+keymap("i", "jj", "<ESC>", opts)
+
+-- Save --
+keymap("n", "<leader>s", ":w<CR>", opts)
+keymap("n", "<leader>q", ":q<CR>", opts)
 
 -- Visual --
 -- Stay in indent mode
